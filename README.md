@@ -1,2 +1,2 @@
-# bfm_docs_help
-Help content for the docs subdomain of bigfathom mission site
+# bfm_docs_root
+Shared help documents of Bigfathom Mission website
