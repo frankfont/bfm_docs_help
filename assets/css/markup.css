@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding-bottom: 1rem;
+    border-bottom: solid 2px;
+}
+
+.footer {
+    font-size: x-small;
+    background-color: dimgray;
+}
