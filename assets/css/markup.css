@@ -1,6 +1,7 @@
 body {
-    background-color: black;
+    background-color: #303030;
     color: white;
+    padding: 12px;
 }
 
 .header {
@@ -11,4 +12,94 @@ body {
 .footer {
     font-size: x-small;
     background-color: dimgray;
+    position: fixed;
+    bottom: 0;
+    left: 8px;
+    right: 8px;
+    padding-left: 12px;
+    margin-bottom: 4px;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #71BC76;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-radius: 20px;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #97f19d;
+}
+
+.notice {
+    background: gray;
+    color: yellow;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    background-color: gray;
+    color: green;
+    border: none;
+    border-radius:8px;
+    padding: 2px;
+    -moz-border-radius:6px;
+    width: 100%;
+  }
+  
+  td:first-child, th:first-child {
+    border-left: none;
+    padding: 2px;
+  }
+  
+  td, th {
+    border: none;
+  }
+  
+  th {
+    text-align: left;
+    width: 30%;
+    padding: 2px;
+    border-top: none;
+  }
+  
+  td {
+    padding: 2px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #b8b5b5;
+  
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f3f0f0;
+  }
+  
+  tbody {
+   border: none;
+  }
+
+  .go-back {
+      color: #97f19d;
+      font-weight: bold;
+      font-size: small;
+      padding: 4px;
+      text-decoration: none;
+  }
+
+  .go-back:hover {
+    color: #acf3b0;
 }
