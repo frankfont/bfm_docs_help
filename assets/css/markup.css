@@ -49,7 +49,7 @@ body {
     text-align: center;
 }
 
-table {
+table.instruction {
     background-color: gray;
     color: green;
     border: none;
@@ -57,38 +57,43 @@ table {
     padding: 2px;
     -moz-border-radius:6px;
     width: 100%;
-  }
+}
   
-  td:first-child, th:first-child {
+table.instruction tbody td:first-child, th:first-child {
     border-left: none;
+    border-right: none;
     padding: 2px;
-  }
+}
   
-  td, th {
+table.instruction tbody td, th {
     border: none;
-  }
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse
+}
   
-  th {
+table.instruction tbody th {
     text-align: left;
     width: 30%;
     padding: 2px;
     border-top: none;
-  }
+    border-right: none;
+}
   
-  td {
+table.instruction tbody td {
     padding: 2px;
-  }
+}
   
-  tr:nth-child(even) {
+table.instruction tbody tr:nth-child(even) {
     background-color: #b8b5b5;
   
-  }
+}
   
-  tr:nth-child(odd) {
+table.instruction tbody tr:nth-child(odd) {
     background-color: #f3f0f0;
-  }
+}
   
-tbody {
+table.instruction tbody tbody {
     border: none;
 }
 
@@ -104,20 +109,6 @@ tbody {
     color: #acf3b0;
 }
 
-.twoDivs {
-    width: 100%;
-}
-
-.leftDiv {
-    float: left;
-}
-
-.rightDiv {
-    width: 50vw;
-    float: right;
-    background-color: red;
-}
-
 .blurb-box {
     position: relative;
     left: 50%;
@@ -125,4 +116,53 @@ tbody {
     transform: translate(-50%, -50%);
     border: 5px solid #FFFF00;
     padding: 10px;
+}
+
+img.icon {
+    margin: 20px;
+}
+
+.rotate0 {
+    background-color: transparent;
+    transform: rotate(0deg);
+}
+
+.rotate22-5 {
+    background-color: transparent;
+    transform: rotate(22.5deg);
+}
+
+.rotate45 {
+    background-color: transparent;
+    transform: rotate(45deg);
+}
+
+.rotate67-5 {
+    background-color: transparent;
+    transform: rotate(67.5deg);
+}
+
+.rotate90 {
+    background-color: transparent;
+    transform: rotate(90deg);
+}
+
+.rotate112-5 {
+    background-color: transparent;
+    transform: rotate(112.5deg);
+}
+
+.rotate135 {
+    background-color: transparent;
+    transform: rotate(135deg);
+}
+
+.rotate157-5 {
+    background-color: transparent;
+    transform: rotate(157.5deg);
+}
+
+.rotate180 {
+    background-color: transparent;
+    transform: rotate(180deg);
 }
