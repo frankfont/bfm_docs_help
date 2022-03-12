@@ -4,6 +4,14 @@ body {
     padding: 12px;
 }
 
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
 a.example {
     color: cyan;
     margin: 4px;
@@ -56,6 +64,10 @@ a.example:hover {
 
 .center {
     text-align: center;
+}
+
+table.simple, table.simple tbody td, table.simple tbody tr {
+    color: white;
 }
 
 table.instruction {
