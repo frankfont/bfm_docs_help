@@ -6,6 +6,7 @@ body {
 
 a.example {
     color: cyan;
+    margin: 4px;
 }
 
 a.example:hover {
