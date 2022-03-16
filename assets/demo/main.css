@@ -4,6 +4,14 @@ body {
     padding: 12px;
 }
 
+a {
+    color: cyan;
+}
+
+a:hover {
+    color: white;
+}
+
 .header {
     padding-bottom: 1rem;
     border-bottom: solid 2px;
