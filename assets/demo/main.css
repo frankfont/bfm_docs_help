@@ -27,3 +27,15 @@ a:hover {
     padding-left: 12px;
     margin-bottom: 4px;
 }
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 2em;
+    }
+}
