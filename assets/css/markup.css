@@ -66,6 +66,10 @@ a.example:hover {
     text-align: center;
 }
 
+.big50 {
+    width: 50px;
+}
+
 table.simple,
 table.simple tbody td,
 table.simple tbody tr {

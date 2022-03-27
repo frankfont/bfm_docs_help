@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Probability Feature</title>
+    <link rel="stylesheet" href="../css/markup.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div>
+            <a href="https://bigfathom.com"><img height="40px" src="../img/bfm-logo-wtext6-hover.png"></a>
+        </div>
+    </div>
+
+    <div><a class="go-back" href="../index.html">&lt; Go Back to Topics Menu</a></div>
+
+    <div class="help-content-instruction">
+
+        <h1>Probabilities</h1>
+        <p>Subscribers to the <b>Pro package</b> can enter and view probability estimates on individual workitems of a mission.</p>
+        <p>This provides an automatic computation of probabilities throughout your mission model.</p>
+        <p>
+            The smart probabilities feature is activated by entering a probability value into at least one workitem.
+        </p>
+
+        <h2>Probability Values</h2>
+        <p>
+            Entries are numeric in the range [0.000,1.000] and are displayed up to 3 decimal places.
+        </p>
+        <p>
+            Default probability for workitems without a user entry is 0.950.
+        </p>
+
+        <h2>Computed Probabilities</h2>
+        <p>
+            Probabilities are computed as simple products through the diagram without double-counting multiply linked contributors.
+        </p>
+        <p>
+            The <b>status setting</b> of a workitem contributes to the computed probability in the flow as follows:
+            <ul>
+                <li>
+                    <div><b>Started and Review:</b> contribution of such a workitem is the normal probability of the workitem increased by half the difference of that value and <b>1</b>.</div>
+                </li>
+                <li>
+                    <div><b>Completed and Abandoned:</b> contribution of such a workitem is the whole value <b>1</b>.</div>
+                </li>
+            </ul>
+            A small symbol indicates whether a workitem contained a user provided probability entry or is simply the running computation at that point in the workflow.
+
+        </p>
+
+    </div>
+
+</body>
+
+</html>
