@@ -4,11 +4,11 @@ body {
     padding: 12px;
 }
 
-.help-content-simple > h2 {
+.help-content-simple>h2 {
     color: white;
 }
 
-.help-content-simple > p {
+.help-content-simple>p {
     color: white;
 }
 
@@ -66,7 +66,9 @@ a.example:hover {
     text-align: center;
 }
 
-table.simple, table.simple tbody td, table.simple tbody tr {
+table.simple,
+table.simple tbody td,
+table.simple tbody tr {
     color: white;
 }
 
@@ -74,26 +76,28 @@ table.instruction {
     background-color: gray;
     color: green;
     border: none;
-    border-radius:8px;
+    border-radius: 8px;
     padding: 2px;
-    -moz-border-radius:6px;
+    -moz-border-radius: 6px;
     width: 100%;
 }
-  
-table.instruction tbody td:first-child, th:first-child {
+
+table.instruction tbody td:first-child,
+th:first-child {
     border-left: none;
     border-right: none;
     padding: 2px;
     color: green;
 }
-  
-table.instruction tbody td, th {
+
+table.instruction tbody td,
+th {
     border: none;
     margin: 0px;
     padding: 0px;
     color: green;
 }
-  
+
 table.instruction tbody th {
     text-align: left;
     width: 30%;
@@ -102,21 +106,20 @@ table.instruction tbody th {
     border-right: none;
     color: green;
 }
-  
+
 table.instruction tbody td {
     padding: 2px;
     color: green;
 }
-  
+
 table.instruction tbody tr:nth-child(even) {
     background-color: #b8b5b5;
-  
 }
-  
+
 table.instruction tbody tr:nth-child(odd) {
     background-color: #f3f0f0;
 }
-  
+
 .go-back {
     color: #97f19d;
     font-weight: bold;
@@ -196,5 +199,35 @@ img.icon {
 @media only screen and (max-width: 600px) {
     body {
         font-size: 2em;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item-left {
+    flex: 33%;
+}
+
+.flex-item-middle {
+    flex: 33%;
+    /* border: 2px solid rgb(165, 250, 250); */
+}
+
+.flex-item-right {
+    flex: 33%;
+}
+
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+
+@media (max-width: 800px) {
+    .flex-item-right,
+    .flex-item-middle,
+    .flex-item-left {
+        flex: 100%;
+        border: none;
     }
 }
