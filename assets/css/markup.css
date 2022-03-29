@@ -4,6 +4,10 @@ body {
     padding: 12px;
 }
 
+h2.secondary {
+    margin-top: 40px;
+}
+
 .help-content-simple>h2 {
     color: white;
 }
