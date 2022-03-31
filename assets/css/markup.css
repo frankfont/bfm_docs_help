@@ -25,6 +25,15 @@ a.example:hover {
     color: rgb(165, 250, 250);
 }
 
+a.morehelp {
+    color: rgb(9, 255, 0);
+    margin: 4px;
+}
+
+a.morehelp:hover {
+    color: rgb(165, 250, 207);
+}
+
 .header {
     padding-bottom: 1rem;
     border-bottom: solid 2px;
