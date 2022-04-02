@@ -9,7 +9,7 @@ if [ -z "$ENV" ]; then
     ENV="beta"
     echo "Using default ENV"
 fi    
-BUCKET="twigflo-docs-${ENV}"
+BUCKET="bigfathom-docs-${ENV}"
 S3_PATH="s3://${BUCKET}/help/"
 
 CMD="aws s3 sync ./assets/ ${S3_PATH}"
