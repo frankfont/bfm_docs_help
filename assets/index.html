@@ -1,72 +1,169 @@
-<head>
-    <title>Twigflo Help</title>
-    <link rel="stylesheet" href="css/markup.css">
-</head>
-
-<body>
-    <div class="header">
-        <div>
-            <a href="https://twigflo.com"><img height="40px" src="./img/twigflo-logo.png"></a>
-        </div>
-    </div>
-
-    <p>Various help topics for users of the Twigflo website.</p>
-
-    <div class="flex-container">
-
-        <div class="flex-item-left">
-
-            <div>
-                <h2>Basic Concepts</h2>
-                <a class="button" href="markup/twig-diagram-intro.html">Twig Diagram</a>
-                <br>                
-                <a class="button" href="markup/mission-diagram-intro.html">Mission Diagram</a>
-                <br>
-                <a class="button" href="markup/recipes.html">Recipes</a>
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="UTF-8">
+      <!--<title> CSS Vertical Tabs | CodingLab </title>-->
+      <link rel="stylesheet" href="style.css">
+      <!-- Fontawesome CDN Link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <p> 
+      <div class="container">
+         <div class="topic"></div>
+         <div class="content">
+            <input type="radio" name="slider" checked id="home">
+            <input type="radio" name="slider" id="blog">
+            <input type="radio" name="slider" id="help">
+            <input type="radio" name="slider" id="code">
+            <input type="radio" name="slider" id="about">
+            <div class="list">
+               <label for="home" class="home">
+               <i class="fas fa-home"></i>
+               <span class="title">Welcome</span>
+               </label>
+               <label for="blog" class="blog">
+               <span class="icon"><i class="fas fa-hammer"></i></span>
+               <span class="title">Build</span>
+               </label>
+               <label for="help" class="help">
+               <span class="icon"><i class="far fa-keyboard"></i></span>
+               <span class="title">Shortcuts</span>
+               </label>
+               <label for="code" class="code">
+               <span class="icon"><i class="fas fa-book-open"></i></span>
+               <span class="title">Vocab</span>
+               </label>
+               <label for="about" class="about">
+               <span class="icon"><i class="far fa-user"></i></span>
+               <span class="title">Help</span>
+               </label>
+               <div class="slider"></div>
             </div>
-
-        </div>
-
-        <div class="flex-item-middle">
-            <div>
-                <h2>User Interface</h2>
-                <a class="button" href="markup/ui-main-page-navigation.html">Navigation</a>
-                <br />
-                <a class="button" href="markup/mission-properties.html">Mission Properties</a>
-                <br />
-                <a class="button" href="markup/team-properties.html">Team Properties</a>
-                <br />
-                <a class="button" href="markup/team-membership.html">Team Membership</a>
-                <br />
-                <a class="button" href="markup/ui-diagraming.html">Diagraming</a>
-                <br />
-                <a class="button" href="markup/missions-in-missions.html">Missions in Missions</a>
+            <div class="text-content">
+               <div class="home text">
+                  <div class="title">Welcome</div>
+                  <p>
+                  <div>Welcome to Twigflo!</div>
+                  <br>
+                  <p>
+                  </p>
+                  If you’re here trying to find a better alternative to tracking team progress and maximizing transparency, look no more. 
+                  In this article you will learn how to build, track, and retain using your first Twigflo mission.
+                  </p>
+                  <br>
+                  Before we jump in, let’s talk about missions. What is a mission? We define a mission as a specific task with which a person or group is charged with completing. Each mission has a goal that is determined at the genesis of the mission. For example, a PR team takes on a new client that needs help in the media space. In order to execute, the PR team determines that their goal is to develop a media relations strategy for their client. Traditionally, the PR team might have used lists, gantts, timelines, and statuses to track, execute, and deliver the strategy. However, Twigflo will allow the PR team to build a connected mission to communicate responsibilities and dependencies with ease.
+                  </p>
+               </div>
+               <div class="blog text">
+                  <div class="title">Building your first mission</div>
+                  <button class="collapsible">Step 1 - Create</button>
+                  <div class="contentb">
+                     Simply click “New Mission” in your team. Then you will be asked to define the mission. Within this first form, add the overall goal of the mission as well as any other details you’d like to add. You can always update the mission later. 
+                     </p>
+                     <br>
+                     <div style="padding:56.12% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/709219722?h=f8e181fdf7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Create a mission.mov"></iframe></div>
+                     <script src="https://player.vimeo.com/api/player.js"></script> 
+                  </div>
+                  <br>
+                  <button class="collapsible">Step 2 - Build</button>
+                  <div class="contentb">
+                     Now you can begin to build your mission. Here are three ways to 	
+                     add work items to the mission canvas:
+                     <br>
+                     Workitem toolbar:
+                     <br>
+                     <div style="padding:51.62% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710918684?h=867c94cbb0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Create workitem - toolbar"></iframe></div>
+                     <script src="https://player.vimeo.com/api/player.js"></script>
+                     <br>
+                     Add connected:
+                     <br>
+                     <div style="padding:51.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710918742?h=541501319c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Create workitem - add connected"></iframe></div>
+                     <script src="https://player.vimeo.com/api/player.js"></script> 
+                     <br>
+                     Create button:
+                     <br>
+                     <div style="padding:51.61% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710918716?h=87bb14067e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Create work item - button"></iframe></div>
+                     <script src="https://player.vimeo.com/api/player.js"></script>
+                     <br>
+                     Go to Terms to learn more about the different types of workitems.
+                     <br>
+                  </div>
+                  </p>
+                  <br>
+                  <button class="collapsible">Step 3 - Share</button>
+                  <div class="contentb">
+                     Twigflo teams exist for the sake of sharing. Within each Twigflo environment you are able to create teams. 
+                     You can add a member to on of the following security groups:
+                     <div class="b">
+                        <ul>
+                           <li>Read</li>
+                           <li>Edit</li>
+                           <li>Delete</li>
+                           <li>Manage</li>
+                        </ul>
+                     </div>
+                     <br>
+                     <div style="padding:51.62% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710931929?h=72bbec8c62&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Share"></iframe></div>
+                     <script src="https://player.vimeo.com/api/player.js"></script>
+                  </div>
+                  </p>
+                  <br>
+                  <button class="collapsible">Step 4 - Retain</button>
+                  <div class="contentb">
+                     Retaining knowledge can be done using archiving. 
+                     <br>                 
+                     <div style="padding:51.62% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710931890?h=2ed51138d5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Archive"></iframe></div>
+                     <script src="https://player.vimeo.com/api/player.js"></script>
+                  </div>
+               </div>
+               <div class="help text">
+                  <div class="title">Keyboard Shortcuts</div>
+                  <p>Connect work items: <kbd>alt</kbd> or <kbd>option</kbd> + left click and drag</p>
+                  <p>Delete existing connection: <kbd>shift</kbd> + left  click and drag</p>
+   
+               </div>
+               <div class="code text">
+                  <div class="title">Vocab</div>
+                  <p>Choosing a process taxonomy is tough, so we made it simple. Agile terms have been used by product teams for more than 3 decades, and they work. Each term has concrete meaning removing all ambiguity to what it may mean. Below we will explain these terms. 
+                  </p>
+                  <br>
+                  <p>
+                     <img src="./icons/task_2.svg" alt="task" style="float:left;width:65px;height:75px;"> Task - least level of effort. Typically multiple tasks can be done on any given day. Use tasks for short-term accomplishments such as drafting a report, sending correspondence, etc. Keep in mind that multiple tasks can make up a Story. 
+                  </p>
+                  <br>
+                  <p> 
+                     <img src="./icons/story_2.svg" alt="story" style="float:left;width:65px;height:75px;">  Story - medium level of effort. Stories are meant to act as significant deliverables such as the final delivery of a report. Use stories to make up the accomplishment of an epic. 
+                  </p>
+                  <br> 
+                  <p> 
+                     <img src="./icons/epic_2.svg" alt="epic" style="float:left;width:65px;height:75px;"> Epic - highest level of effort. Epics are made up of many stories and can take anywhere from 1-3 weeks to accomplish. Epics are not meant to replace missions. You can have multiple epics in a mission. 
+                  </p>
+               </div>
+               <div class="about text">
+                  <div class="title">Help Content</div>
+                  <p>Contact feedback@twigflo.com with any questions.</p>
+               </div>
             </div>
-        </div>
-
-        <div class="flex-item-right">
-            <div>
-                <h2>Sharing and Publishing</h2>
-                <a class="button" href="markup/access-scope.html">Access Scope</a>
-                <br>
-                <a class="button" href="markup/publishing.html">Publishing</a>
-            </div>
-
-            <div>
-                <h2 class="secondary">Pro Package Features</h2>
-                <a class="button" href="markup/effort-property.html">Smart Effort Totals</a>
-                <br>
-                <a class="button" href="markup/cost-property.html">Smart Cost Totals</a>
-                <br>                
-                <a class="button" href="markup/probability-property.html">Smart Probabilities</a>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="footer">
-        <p>Copyright (c) Twigflo 2022</p>
-    </div>
-</body>
-
+         </div>
+      </div>
+      <script>
+         var coll = document.getElementsByClassName("collapsible");
+         var i;
+         
+         for (i = 0; i < coll.length; i++) {
+           coll[i].addEventListener("click", function() {
+             this.classList.toggle("active");
+             var contentb = this.nextElementSibling;
+             if (contentb.style.maxHeight){
+               contentb.style.maxHeight = null;
+             } else {
+               contentb.style.maxHeight = contentb.scrollHeight + "px";
+             } 
+           });
+         }
+      </script>
+   </body>
 </html>
