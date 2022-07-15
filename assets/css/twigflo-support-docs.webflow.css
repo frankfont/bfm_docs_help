@@ -218,7 +218,15 @@ figcaption {
 }
 
 .nav-link:hover {
-  color: #354fe7;
+  margin-top: 20px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #a5b0ff;
+  background-clip: padding-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .nav-link.w--current {
