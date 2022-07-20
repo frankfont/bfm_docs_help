@@ -1704,8 +1704,18 @@ figcaption {
 
 .secondary-button-header.padding-responsive {
   margin-left: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #72edc2;
+  background-color: transparent;
   -webkit-transition: background-color 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease;
+  color: #72edc2;
+}
+
+.secondary-button-header.padding-responsive:hover {
+  background-color: #72edc2;
+  color: #fff;
 }
 
 .external-link {
