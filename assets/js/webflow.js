@@ -24736,15 +24736,13 @@ Webflow.define('forms', module.exports = function ($, _) {
   }
 
   function signFile(file, cb) {
-    var payload = {
+    var payload = new URLSearchParams({
       name: file.name,
       size: file.size
-    };
+    });
     $.ajax({
-      type: 'POST',
-      url: signFileUrl,
-      data: payload,
-      dataType: 'json',
+      type: 'GET',
+      url: "".concat(signFileUrl, "?").concat(payload),
       crossDomain: true
     }).done(function (data) {
       cb(null, data);

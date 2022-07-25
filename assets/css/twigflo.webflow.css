@@ -2903,6 +2903,7 @@ figcaption {
 }
 
 .bold-text {
+  font-size: 42px;
   font-weight: 400;
 }
 
@@ -2962,7 +2963,7 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  width: 1000px;
+  width: 900px;
   height: 650px;
   margin: auto;
   border-radius: 20px;
@@ -4087,7 +4088,7 @@ figcaption {
     margin-top: 0px;
     padding: 10px;
     border-radius: 6px;
-    background-color: #354fe7;
+    background-color: transparent;
   }
 
   .mobile-menu.w--open {
@@ -4096,7 +4097,7 @@ figcaption {
   }
 
   .icon {
-    color: #fff;
+    color: #65687d;
     font-size: 30px;
   }
 
@@ -4801,7 +4802,7 @@ figcaption {
 
   .mobile-menu {
     margin-top: 0px;
-    background-color: #72edc2;
+    background-color: transparent;
   }
 
   .rich-text-block h4 {
