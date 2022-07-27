@@ -230,7 +230,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-  color: #72edc2;
+  color: #222433;
 }
 
 .nav-link.w--current:active {
@@ -354,7 +354,7 @@ figcaption {
 .primary-button {
   padding: 16px 42px;
   border-radius: 80px;
-  background-color: #354fe7;
+  background-color: #72edc2;
   -webkit-transition: color 300ms ease, -webkit-transform 350ms ease;
   transition: color 300ms ease, -webkit-transform 350ms ease;
   transition: transform 350ms ease, color 300ms ease;
@@ -1468,7 +1468,7 @@ figcaption {
 }
 
 .color-white {
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .color-title {
@@ -1688,25 +1688,25 @@ figcaption {
 }
 
 .secondary-button-header {
+  margin-top: 0px;
   margin-left: 20px;
   padding: 15px 25px;
   border-radius: 80px;
-  background-color: #efefff;
+  background-color: #00613f;
   -webkit-transition: background-color 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease;
-  color: #354fe7;
+  color: #f0f0f0;
 }
 
 .secondary-button-header:hover {
-  background-color: #324fe7;
+  background-color: #a6e5cf;
   color: #fff;
 }
 
 .secondary-button-header.padding-responsive {
   margin-left: 20px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #72edc2;
+  padding-top: 19px;
+  border: 1px solid transparent;
   background-color: transparent;
   -webkit-transition: background-color 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease;
@@ -2538,14 +2538,15 @@ figcaption {
   width: 300px;
   height: 45px;
   margin-left: 0px;
-  padding: 12px 50px 12px 60px;
+  padding: 12px 0px;
   border-radius: 80px;
   background-color: #72edc2;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
-  color: #fff;
+  color: #222433;
   font-size: 12px;
   line-height: 20px;
+  text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -2904,7 +2905,7 @@ figcaption {
 
 .bold-text {
   font-size: 42px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero-heading-right-2 {
@@ -3106,7 +3107,7 @@ figcaption {
   background-color: #72edc2;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
-  color: #fff;
+  color: #222433;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
@@ -3763,6 +3764,53 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.text-block-6 {
+  color: #f0f0f0;
+}
+
+.list {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.heading-19 {
+  font-weight: 200;
+}
+
+.heading-20 {
+  font-weight: 500;
+}
+
+.heading-21 {
+  font-weight: 500;
+}
+
+.heading-22 {
+  font-weight: 500;
+}
+
+.list-item {
+  font-weight: 200;
+}
+
+.list-item.list-new-bullets {
+  padding-left: 23px;
+  background-image: url('../images/checkmark.svg');
+  background-position: 0px 50%;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  color: #222433;
+}
+
+.heading-23 {
+  overflow: visible;
+  padding-bottom: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 @media screen and (min-width: 1920px) {
